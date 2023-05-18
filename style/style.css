@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #532a7f;
+    font-family: 'Archivo', sans-serif;
+    
+}
+.header{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+
+}
+.header h1,p{
+    margin-bottom: 20px;
+}
+.mainFloatContainer{
+    display: none;
+    border: 3px solid white;
+    width: 600px;
+    margin: auto;
+    
+   
+}
+
+.float{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+   
+   
+}
+
+.float div{
+ float: left;
+ width: 200px;
+}
+
+.firstSong{
+ margin-right: 25px;   
+ margin-bottom: 10px;
+ margin-top: 10px;
+
+}
+
+.secondSong{
+ margin-left: 25px; 
+ margin-bottom: 10px; 
+ margin-top: 10px;
+
+}
+
+span{
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    background-color: #c004f8;
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+    
+    
+    
+}
+
+.clear{
+    clear: both;
+}
+
+button{
+    background-color: #EFEFEF;
+    display: block;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+    border: #EFEFEF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
